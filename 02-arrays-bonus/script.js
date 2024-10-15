@@ -21,3 +21,7 @@ console.log(longNames);
 console.log('----');
 
 // 3. Rimuovi 'Ed' dall'array teachers
+const edIndex = teachers.indexOf('Ed');
+console.log(edIndex);
+teachers.splice(edIndex, 1);
+console.log(teachers);
