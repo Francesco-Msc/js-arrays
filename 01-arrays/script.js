@@ -55,7 +55,7 @@ console.log('----');
 
 // 8. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = teachers.findIndex(teachers => teachers === 'Lewis');
+const lewisIndex = teachers.indexOf('Lewis');
 console.log(lewisIndex);
 console.log('----');
 
