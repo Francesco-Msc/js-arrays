@@ -24,16 +24,12 @@ console.log(teachers[4]);
 console.log('----');
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = teachers[6];
-teachers.pop();
-console.log(teachers);
+const lastTeacher = teachers.pop();
 console.log(lastTeacher);
 console.log('----');
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = teachers[0];
-teachers.shift();
-console.log(teachers);
+const firstTeacher = teachers.shift();
 console.log(firstTeacher);
 console.log('----');
 
